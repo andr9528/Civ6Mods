@@ -8,8 +8,7 @@
     <ModVersion>1</ModVersion>
     <Teaser>This mod fixes smaller errors</Teaser>
     <Description>This mod fixes smaller errors.
-
-- Nullifies any Great Writer points gained as Mäori, preventing getting stuck, when ready to recruit a great writer</Description>
+Go to https://github.com/andr9528/Civ6Mods/issues to report any bugs/issues you find. Remember to follow the template, so that i have the best possible chance to fix it.</Description>
     <Authors>WolfDK</Authors>
     <SpecialThanks>
     </SpecialThanks>
@@ -23,12 +22,21 @@
 </Associations>]]></AssociationData>
     <AssemblyName>Small-Fixes</AssemblyName>
     <RootNamespace>Small-Fixes</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Fix.Mäori"><File>Mäori-Fix.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="Small_Fixes.Art.xml" />
+    <Content Include="Maori-Fix-Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Maori-Fix-Gameplay.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Temp Code.txt">
+      <SubType>Content</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>

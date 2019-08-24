@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Maori-Fix -->
+<!-- Author: WolfDK -->
+<!-- DateCreated: 8/24/2019 10:31:11 AM -->
+<GameData>
+
+	<Types>
+		<Row
+			Type="WOLF_MODIFIER_MAORI_WRITER_VOID"
+			Kind="KIND_MODIFIER"/>
+	</Types>
+
+	<Modifiers>
+		<Row
+			ModifierId="WOLF_TRAIT_MAORI_MANA_VOID"
+			ModifierType="WOLF_MODIFIER_MAORI_WRITER_VOID"/>
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--Remember to edit Value to a large negativ number-->
+		<Row 
+			ModifierId="WOLF_TRAIT_MAORI_MANA_VOID"
+			Type="ARGTYPE_IDENTITY"
+			Value="666"
+			Name="Amount"/>
+		<Row
+			ModifierId="WOLF_TRAIT_MAORI_MANA_VOID"
+			Type="ARGTYPE_IDENTITY"
+			Value="PSEUDOYIELD_GPP_WRITER"
+			Name="PSEUDOYIELD"/>
+	</ModifierArguments>
+
+	<TraitModifiers>
+		<Row
+			TraitType="TRAIT_CIVILIZATION_MAORI_MANA"
+			ModifierId="WOLF_TRAIT_MAORI_MANA_VOID"/>
+	</TraitModifiers>
+	
+</GameData>

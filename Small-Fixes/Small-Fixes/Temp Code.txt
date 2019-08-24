@@ -1,0 +1,19 @@
+	<!--
+	<Buildings>
+		<Row 
+			BuildingType="WOLF_BUILDING_WRITER_VOID" 
+			Name="LOC_WOLF_BUILDING_WRITER_VOID_NAME" 
+			Cost="1" 
+			MaxPlayerInstances="1" 
+			RemoveOnConquest="1" 
+			PrereqDistrict="DISTRICT_CITY_CENTER"
+			Description="LOC_WOLF_BUILDING_WRITER_VOID_DESCRIPTION"
+			ObsoleteEra="NO_ERA"/>
+	</Buildings>
+	-->
+
+	<!--
+	<Building_GreatPersonPoints>
+		<Row BuildingType="WOLF_BUILDING_WRITER_VOID" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="-1000000"/>
+	</Building_GreatPersonPoints>
+	-->
