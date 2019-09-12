@@ -7,8 +7,7 @@
     <ProjectGuid>bb9182cd-e4cf-4031-a19e-45321a66f0f0</ProjectGuid>
     <ModVersion>1</ModVersion>
     <Teaser>This mod fixes smaller errors</Teaser>
-    <Description>This mod fixes smaller errors.
-Go to https://github.com/andr9528/Civ6Mods/issues to report any bugs/issues you find. Remember to follow the template, so that i have the best possible chance to fix it.</Description>
+    <Description>This mod fixes smaller errors. Go to https://github.com/andr9528/Civ6Mods/issues to report any bugs/issues you find. Remember to follow the template, so that i have the best possible chance to fix it.</Description>
     <Authors>WolfDK</Authors>
     <SpecialThanks>
     </SpecialThanks>
@@ -22,7 +21,7 @@ Go to https://github.com/andr9528/Civ6Mods/issues to report any bugs/issues you 
 </Associations>]]></AssociationData>
     <AssemblyName>Small-Fixes</AssemblyName>
     <RootNamespace>Small-Fixes</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Fix.Mäori"><File>Mäori-Fix.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Maori_Fix"><File>Maori-Fix-Gameplay.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>

@@ -17,11 +17,10 @@
 	</Modifiers>
 
 	<ModifierArguments>
-		<!--Remember to edit Value to a large negativ number-->
 		<Row 
 			ModifierId="WOLF_TRAIT_MAORI_MANA_VOID"
 			Type="ARGTYPE_IDENTITY"
-			Value="666"
+			Value="-999999"
 			Name="Amount"/>
 		<Row
 			ModifierId="WOLF_TRAIT_MAORI_MANA_VOID"
